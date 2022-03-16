@@ -83,7 +83,7 @@ parameter_defaults:
   ControllerExtraConfig:
 ```
 
-Sample files for both iSCSI and FC backends are available in [templates](https://github.com/mohdadilntl/hpe-nimble-cinder-rhosp16.2/blob/master/templates) folder for reference.
+Sample files for iSCSI backend is available in [templates](https://github.com/mohdadilntl/hpe-nimble-cinder-rhosp16.2/blob/master/templates) folder for reference.
 
 #### Additional Help
 
@@ -120,7 +120,7 @@ a304f4cee9d8  manager1.ctlplane.gse.com:8787/rhosp-rhel8/openstack-cinder-api:16
 
 3.2.	Verify that the backend details are visible in ```/etc/cinder/cinder.conf``` in the cinder-volume container
 
-Given below is an example of FC backend details. Similar entries should be observed for iSCSI backend too.
+Given below is an example of iSCSI backend details. Similar entries should be observed for FC backend too.
 
 ```
 [nimble_iscsi]
